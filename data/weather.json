@@ -1,0 +1,842 @@
+[
+  {
+    "city": "Tokyo",
+    "date": "2026-07-10",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-11",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-12",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-13",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-14",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-15",
+    "condition": "rain",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-16",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-17",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-18",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-19",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-20",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-21",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-22",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-23",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-24",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-25",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-26",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-27",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-28",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-29",
+    "condition": "rain",
+    "temp_c_min": 27,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-30",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-07-31",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-01",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-02",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-03",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-04",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-05",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-06",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-07",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Tokyo",
+    "date": "2026-08-08",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-10",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-11",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-12",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-13",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-14",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-15",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-16",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-17",
+    "condition": "rain",
+    "temp_c_min": 31,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-18",
+    "condition": "rain",
+    "temp_c_min": 24,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-19",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-20",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-21",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-22",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-23",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-24",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-25",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-26",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-27",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-28",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-29",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-30",
+    "condition": "rain",
+    "temp_c_min": 28,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-07-31",
+    "condition": "rain",
+    "temp_c_min": 29,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-01",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-02",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-03",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-04",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-05",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-06",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-07",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Hong Kong",
+    "date": "2026-08-08",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-10",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-11",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-12",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-13",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-14",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-15",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-16",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-17",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-18",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-19",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-20",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-21",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-22",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-23",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-24",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-25",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-26",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-27",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-28",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-29",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-30",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-07-31",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-01",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-02",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-03",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-04",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-05",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-06",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-07",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Bangkok",
+    "date": "2026-08-08",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-10",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-11",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-12",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-13",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-14",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-15",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-16",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-17",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-18",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-19",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-20",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-21",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-22",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-23",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-24",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-25",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-26",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-27",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-28",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-29",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-30",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-07-31",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-01",
+    "condition": "rain",
+    "temp_c_min": 30,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-02",
+    "condition": "partly_cloudy",
+    "temp_c_min": 31,
+    "temp_c_max": 35
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-03",
+    "condition": "sunny",
+    "temp_c_min": 24,
+    "temp_c_max": 30
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-04",
+    "condition": "cloudy",
+    "temp_c_min": 25,
+    "temp_c_max": 31
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-05",
+    "condition": "rain",
+    "temp_c_min": 26,
+    "temp_c_max": 32
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-06",
+    "condition": "partly_cloudy",
+    "temp_c_min": 27,
+    "temp_c_max": 33
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-07",
+    "condition": "sunny",
+    "temp_c_min": 28,
+    "temp_c_max": 34
+  },
+  {
+    "city": "Singapore",
+    "date": "2026-08-08",
+    "condition": "cloudy",
+    "temp_c_min": 29,
+    "temp_c_max": 35
+  }
+]

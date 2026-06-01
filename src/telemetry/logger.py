@@ -1,45 +1,110 @@
-import logging
-import json
+"""
+Telemetry Logger
+Logs agent events for analysis and debugging.
+"""
+
 import os
+import json
+import time
 from datetime import datetime
-from typing import Any, Dict
+from typing import Dict, Any
 
-class IndustryLogger:
-    """
-    Structured logger that simulates industry practices.
-    Logs to both console and a file in JSON format.
-    """
-    def __init__(self, name: str = "AI-Lab-Agent", log_dir: str = "logs"):
-        self.logger = logging.getLogger(name)
-        self.logger.setLevel(logging.INFO)
+class TelemetryLogger:
+    """Logger for tracking agent events."""
+    
+    def __init__(self, log_dir: str = "logs"):
+        """
+        Initialize logger.
         
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-
-        # File Handler (JSON)
-        log_file = os.path.join(log_dir, f"{datetime.now().strftime('%Y-%m-%d')}.log")
-        file_handler = logging.FileHandler(log_file)
+        Args:
+            log_dir: Directory to store log files
+        """
+        self.log_dir = log_dir
+        os.makedirs(log_dir, exist_ok=True)
         
-        # Console Handler
-        console_handler = logging.StreamHandler()
+        # Create session log file
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.log_file = os.path.join(log_dir, f"session_{timestamp}.log")
         
-        self.logger.addHandler(file_handler)
-        self.logger.addHandler(console_handler)
-
-    def log_event(self, event_type: str, data: Dict[str, Any]):
-        """Logs an event with a timestamp and type."""
-        payload = {
-            "timestamp": datetime.utcnow().isoformat(),
-            "event": event_type,
-            "data": data
+        # Initialize session data
+        self.session_data = {
+            "session_start": datetime.now().isoformat(),
+            "events": []
         }
-        self.logger.info(json.dumps(payload))
-
-    def info(self, msg: str):
-        self.logger.info(msg)
-
-    def error(self, msg: str, exc_info=True):
-        self.logger.error(msg, exc_info=exc_info)
+    
+    def log_event(self, event_type: str, data: Dict[str, Any] = None):
+        """
+        Log an event.
+        
+        Args:
+            event_type: Type of event (e.g., "AGENT_START", "TOOL_CALL")
+            data: Event data as dictionary
+        """
+        event = {
+            "timestamp": datetime.now().isoformat(),
+            "event_type": event_type,
+            "data": data or {}
+        }
+        
+        self.session_data["events"].append(event)
+        
+        # Append to log file
+        with open(self.log_file, 'a') as f:
+            f.write(json.dumps(event) + "\n")
+    
+    def error(self, message: str):
+        """Log an error message."""
+        self.log_event("ERROR", {"message": message})
+        print(f"[ERROR] {message}")
+    
+    def get_session_summary(self) -> Dict[str, Any]:
+        """
+        Get summary of the current session.
+        
+        Returns:
+            Session statistics
+        """
+        events = self.session_data["events"]
+        
+        # Count event types
+        event_counts = {}
+        for event in events:
+            etype = event["event_type"]
+            event_counts[etype] = event_counts.get(etype, 0) + 1
+        
+        # Calculate token usage
+        total_tokens = 0
+        for event in events:
+            if "tokens" in event.get("data", {}):
+                total_tokens += event["data"]["tokens"]
+        
+        # Count tool calls
+        tool_calls = [e for e in events if e["event_type"] == "TOOL_CALL"]
+        
+        return {
+            "session_start": self.session_data["session_start"],
+            "total_events": len(events),
+            "event_counts": event_counts,
+            "total_tokens": total_tokens,
+            "tool_calls": len(tool_calls),
+            "log_file": self.log_file
+        }
+    
+    def save_session(self):
+        """Save complete session data to JSON file."""
+        summary_file = self.log_file.replace(".log", "_summary.json")
+        with open(summary_file, 'w') as f:
+            json.dump(self.session_data, f, indent=2)
+        
+        return summary_file
 
 # Global logger instance
-logger = IndustryLogger()
+logger = TelemetryLogger()
+
+if __name__ == "__main__":
+    # Test logger
+    logger.log_event("TEST_EVENT", {"message": "Testing logger"})
+    logger.error("Test error message")
+    
+    summary = logger.get_session_summary()
+    print(f"Session Summary: {json.dumps(summary, indent=2)}")

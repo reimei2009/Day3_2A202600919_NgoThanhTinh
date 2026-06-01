@@ -1,0 +1,373 @@
+[
+  {
+    "attraction_id": "AT-501",
+    "city": "Tokyo",
+    "name": "Tokyo National Museum",
+    "tags": [
+      "museum",
+      "history",
+      "indoor"
+    ],
+    "ticket_price_usd": 8,
+    "duration_hours": 2.0,
+    "open_hours": {
+      "open": "09:30",
+      "close": "17:00"
+    },
+    "closed_weekdays": [
+      "MON"
+    ],
+    "area": "Ueno"
+  },
+  {
+    "attraction_id": "AT-502",
+    "city": "Tokyo",
+    "name": "Senso-ji Temple",
+    "tags": [
+      "temple",
+      "culture",
+      "outdoor"
+    ],
+    "ticket_price_usd": 0,
+    "duration_hours": 1.5,
+    "open_hours": {
+      "open": "06:00",
+      "close": "17:00"
+    },
+    "closed_weekdays": [],
+    "area": "Asakusa"
+  },
+  {
+    "attraction_id": "AT-503",
+    "city": "Tokyo",
+    "name": "Tokyo Skytree",
+    "tags": [
+      "landmark",
+      "view",
+      "outdoor"
+    ],
+    "ticket_price_usd": 25,
+    "duration_hours": 2.5,
+    "open_hours": {
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "closed_weekdays": [],
+    "area": "Sumida"
+  },
+  {
+    "attraction_id": "AT-504",
+    "city": "Tokyo",
+    "name": "Shinjuku Gyoen",
+    "tags": [
+      "park",
+      "nature",
+      "outdoor"
+    ],
+    "ticket_price_usd": 3,
+    "duration_hours": 2.0,
+    "open_hours": {
+      "open": "09:00",
+      "close": "16:30"
+    },
+    "closed_weekdays": [
+      "MON"
+    ],
+    "area": "Shinjuku"
+  },
+  {
+    "attraction_id": "AT-505",
+    "city": "Tokyo",
+    "name": "Meiji Shrine",
+    "tags": [
+      "shrine",
+      "culture",
+      "outdoor"
+    ],
+    "ticket_price_usd": 0,
+    "duration_hours": 1.0,
+    "open_hours": {
+      "open": "05:00",
+      "close": "18:00"
+    },
+    "closed_weekdays": [],
+    "area": "Shibuya"
+  },
+  {
+    "attraction_id": "AT-506",
+    "city": "Hong Kong",
+    "name": "Victoria Peak",
+    "tags": [
+      "landmark",
+      "view",
+      "outdoor"
+    ],
+    "ticket_price_usd": 12,
+    "duration_hours": 2.0,
+    "open_hours": {
+      "open": "07:00",
+      "close": "23:00"
+    },
+    "closed_weekdays": [],
+    "area": "Mid-Levels"
+  },
+  {
+    "attraction_id": "AT-507",
+    "city": "Hong Kong",
+    "name": "Disneyland",
+    "tags": [
+      "theme park",
+      "family",
+      "outdoor"
+    ],
+    "ticket_price_usd": 85,
+    "duration_hours": 8.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "21:00"
+    },
+    "closed_weekdays": [],
+    "area": "Lantau"
+  },
+  {
+    "attraction_id": "AT-508",
+    "city": "Hong Kong",
+    "name": "Tian Tan Buddha",
+    "tags": [
+      "statue",
+      "culture",
+      "outdoor"
+    ],
+    "ticket_price_usd": 15,
+    "duration_hours": 3.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "closed_weekdays": [],
+    "area": "Lantau"
+  },
+  {
+    "attraction_id": "AT-509",
+    "city": "Hong Kong",
+    "name": "Ocean Park",
+    "tags": [
+      "theme park",
+      "aquarium",
+      "outdoor"
+    ],
+    "ticket_price_usd": 60,
+    "duration_hours": 6.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "closed_weekdays": [],
+    "area": "Southern"
+  },
+  {
+    "attraction_id": "AT-510",
+    "city": "Hong Kong",
+    "name": "Museum of History",
+    "tags": [
+      "museum",
+      "history",
+      "indoor"
+    ],
+    "ticket_price_usd": 8,
+    "duration_hours": 2.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "18:00"
+    },
+    "closed_weekdays": [
+      "TUE"
+    ],
+    "area": "TST"
+  },
+  {
+    "attraction_id": "AT-511",
+    "city": "Bangkok",
+    "name": "Grand Palace",
+    "tags": [
+      "palace",
+      "culture",
+      "outdoor"
+    ],
+    "ticket_price_usd": 15,
+    "duration_hours": 2.5,
+    "open_hours": {
+      "open": "08:30",
+      "close": "15:30"
+    },
+    "closed_weekdays": [],
+    "area": "Old City"
+  },
+  {
+    "attraction_id": "AT-512",
+    "city": "Bangkok",
+    "name": "Wat Pho",
+    "tags": [
+      "temple",
+      "culture",
+      "outdoor"
+    ],
+    "ticket_price_usd": 5,
+    "duration_hours": 1.5,
+    "open_hours": {
+      "open": "08:00",
+      "close": "18:00"
+    },
+    "closed_weekdays": [],
+    "area": "Old City"
+  },
+  {
+    "attraction_id": "AT-513",
+    "city": "Bangkok",
+    "name": "Chatuchak Market",
+    "tags": [
+      "market",
+      "shopping",
+      "outdoor"
+    ],
+    "ticket_price_usd": 0,
+    "duration_hours": 3.0,
+    "open_hours": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "closed_weekdays": [
+      "MON",
+      "TUE"
+    ],
+    "area": "Chatuchak"
+  },
+  {
+    "attraction_id": "AT-514",
+    "city": "Bangkok",
+    "name": "Siam Paragon",
+    "tags": [
+      "mall",
+      "shopping",
+      "indoor"
+    ],
+    "ticket_price_usd": 0,
+    "duration_hours": 3.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "closed_weekdays": [],
+    "area": "Siam"
+  },
+  {
+    "attraction_id": "AT-515",
+    "city": "Bangkok",
+    "name": "Jim Thompson House",
+    "tags": [
+      "museum",
+      "history",
+      "indoor"
+    ],
+    "ticket_price_usd": 10,
+    "duration_hours": 1.5,
+    "open_hours": {
+      "open": "09:00",
+      "close": "17:00"
+    },
+    "closed_weekdays": [],
+    "area": "Silom"
+  },
+  {
+    "attraction_id": "AT-516",
+    "city": "Singapore",
+    "name": "Gardens by the Bay",
+    "tags": [
+      "garden",
+      "nature",
+      "outdoor"
+    ],
+    "ticket_price_usd": 28,
+    "duration_hours": 3.0,
+    "open_hours": {
+      "open": "05:00",
+      "close": "02:00"
+    },
+    "closed_weekdays": [],
+    "area": "Marina Bay"
+  },
+  {
+    "attraction_id": "AT-517",
+    "city": "Singapore",
+    "name": "Marina Bay Sands",
+    "tags": [
+      "landmark",
+      "view",
+      "outdoor"
+    ],
+    "ticket_price_usd": 23,
+    "duration_hours": 2.0,
+    "open_hours": {
+      "open": "09:30",
+      "close": "22:00"
+    },
+    "closed_weekdays": [],
+    "area": "Marina Bay"
+  },
+  {
+    "attraction_id": "AT-518",
+    "city": "Singapore",
+    "name": "Universal Studios",
+    "tags": [
+      "theme park",
+      "family",
+      "outdoor"
+    ],
+    "ticket_price_usd": 81,
+    "duration_hours": 8.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "closed_weekdays": [],
+    "area": "Sentosa"
+  },
+  {
+    "attraction_id": "AT-519",
+    "city": "Singapore",
+    "name": "Botanic Gardens",
+    "tags": [
+      "garden",
+      "nature",
+      "outdoor"
+    ],
+    "ticket_price_usd": 0,
+    "duration_hours": 2.5,
+    "open_hours": {
+      "open": "05:00",
+      "close": "24:00"
+    },
+    "closed_weekdays": [],
+    "area": "Central"
+  },
+  {
+    "attraction_id": "AT-520",
+    "city": "Singapore",
+    "name": "Asian Civilisations Museum",
+    "tags": [
+      "museum",
+      "history",
+      "indoor"
+    ],
+    "ticket_price_usd": 10,
+    "duration_hours": 2.0,
+    "open_hours": {
+      "open": "10:00",
+      "close": "19:00"
+    },
+    "closed_weekdays": [
+      "MON"
+    ],
+    "area": "Civic District"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "scenario_id": "SC-001",
+    "name": "No Available Flights",
+    "description": "Flight exists but seats_left = 0"
+  },
+  {
+    "scenario_id": "SC-002",
+    "name": "No Available Hotels",
+    "description": "Hotel in budget but rooms_left = 0"
+  },
+  {
+    "scenario_id": "SC-003",
+    "name": "Attraction Closed",
+    "description": "Attraction closed on requested day"
+  },
+  {
+    "scenario_id": "SC-004",
+    "name": "Rainy Day Plan",
+    "description": "Rainy day with mostly outdoor plan"
+  },
+  {
+    "scenario_id": "SC-005",
+    "name": "Budget Exceeded",
+    "description": "Total trip cost exceeds budget"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "Tokyo": {
+    "budget": {
+      "daily_usd": 10
+    },
+    "normal": {
+      "daily_usd": 18
+    },
+    "comfort": {
+      "daily_usd": 35
+    }
+  },
+  "Hong Kong": {
+    "budget": {
+      "daily_usd": 8
+    },
+    "normal": {
+      "daily_usd": 15
+    },
+    "comfort": {
+      "daily_usd": 30
+    }
+  },
+  "Bangkok": {
+    "budget": {
+      "daily_usd": 6
+    },
+    "normal": {
+      "daily_usd": 12
+    },
+    "comfort": {
+      "daily_usd": 25
+    }
+  },
+  "Singapore": {
+    "budget": {
+      "daily_usd": 12
+    },
+    "normal": {
+      "daily_usd": 20
+    },
+    "comfort": {
+      "daily_usd": 40
+    }
+  }
+}
